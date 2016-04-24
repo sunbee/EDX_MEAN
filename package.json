@@ -1,6 +1,8 @@
 {
-    "dependencies" : {
-        "underscore" : "1.5.2",
-        "mongodb" : ">2.0"
-    }
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.2.4",
+    "mongodb": ">2.0",
+    "underscore": "1.5.2"
+  }
 }
