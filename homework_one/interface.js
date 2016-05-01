@@ -13,6 +13,7 @@ exports.insert = function(db, doc, callback) {
   });
 };
 
+
 /*
  *  Finds all documents in the "movies" collection
  *  whose "director" field equals the given director,
@@ -33,6 +34,9 @@ exports.byDirector = function(db, director, callback) {
     callback(null, []);
   });
 };
+
+
+
 
 
 
