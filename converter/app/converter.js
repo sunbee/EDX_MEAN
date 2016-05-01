@@ -19,3 +19,4 @@ exports.hexToRgb = function(hex) {
   
   return [red, green, blue];
 };
+
