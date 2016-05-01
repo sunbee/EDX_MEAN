@@ -7,7 +7,7 @@ gulp.task('test', function() {
     src('./test/converter.js').
     pipe(mocha()).
     on('error', function() {
-      console.log('Tests failed!');
+      console.log('Tests failed! ' + error);
       error = true;
     }).
     on('end', function() {
