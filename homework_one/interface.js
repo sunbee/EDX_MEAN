@@ -31,5 +31,6 @@ exports.byDirector = function(db, director, callback) {
     });
     console.log("Retrieved documents by director and sorted by movie");
     callback(null, docs);
+
   });
 };

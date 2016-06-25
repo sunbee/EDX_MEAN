@@ -1,0 +1,13 @@
+// Indexing
+// Set of commands from momgo shell
+
+db.names.insert({name: "Tulika"}) // Add a document to a collection
+db.getCollectionNames() // List the collections in db
+db.stats() // stats upon db
+db.names.stats() // db.collection.stats (stats upon collection in db)
+db.names.findOne() // db.collection.findOne (Get one record "off the top")
+db.names.createIndex({names: 1}) // Indexing
+
+db.names2.drop() // db.collection.drop (Remove a collection from db)
+
+
